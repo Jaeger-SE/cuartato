@@ -1,0 +1,31 @@
+﻿@using System.Threading.Tasks
+@using Cuartato.Website.Models.Collection
+@model Cuartato.Website.Models.Collection.CollectionGender
+@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="title-header">
+    <h2>@Model</h2>
+</div>
+
+<div id="collection-type-picker">
+    <div class="collection-type-item">
+        <a asp-controller="Collection" asp-action="Gallery" asp-route-collectionGender="@(Model)" asp-route-collectionType="@(CollectionType.Shirt)">
+            <h2>T-shirt</h2>
+            <div class="image-wrapper">
+                <div class="cover-image" id="model-women-tshirt"></div>
+            </div>
+        </a>
+    </div>
+    <div class="collection-type-item">
+        <a asp-controller="Collection" asp-action="Gallery" asp-route-collectionGender="@(Model)" asp-route-collectionType="@(CollectionType.Top)">
+            <h2>Top</h2>
+            <div class="image-wrapper">
+                <div class="cover-image" id="model-women-top"></div>
+            </div>
+        </a>
+    </div>
+</div>

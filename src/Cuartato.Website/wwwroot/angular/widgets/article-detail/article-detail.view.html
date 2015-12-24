@@ -1,0 +1,75 @@
+﻿<div id="article-detail" data-ng-init="articleDetail.init()" data-ng-controller="articleDetailController as articleDetail">
+    <div class="image-container" data-ng-style="{'background-image': 'url('+articleDetail.article.ImageUrl+')'}">
+        <!--<img data-ng-src="{{articleDetail.article.ImageUrl}}">-->
+    </div>
+    <div class="info-container">
+        <div class="info-wrapper">
+            <section id="article-setup-selection">
+                <h2>selection:</h2>
+                <div class="selection-item">
+                    <div class="color-item active">
+                        <div class="color-item-content"
+                             data-ng-style="{background: '#'+articleDetail.selection.mainColor.Main.HtmlCode}">
+                        </div>
+                    </div>
+                </div>
+                <div class="selection-item"
+                     data-ng-if="articleDetail.selection.secondaryColor.HtmlCode">
+                    <div class="color-item active">
+                        <div class="color-item-content"
+                             data-ng-style="{background: '#'+articleDetail.selection.secondaryColor.HtmlCode}">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>primary color</h2>
+                <div class="color-picker">
+                    <div class="color-item clickable"
+                         data-ng-repeat="mainColor in articleDetail.article.ArticleCombinations"
+                         data-ng-click="articleDetail.chooseMainColor(mainColor)"
+                         data-ng-class="{'active': articleDetail.selection.mainColor.Main.HtmlCode==mainColor.Main.HtmlCode}">
+                        <div class="color-item-content"
+                             data-ng-style="{background: '#'+mainColor.Main.HtmlCode}">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>secondary color</h2>
+                <div class="color-picker">
+                    <div class="color-item clickable"
+                         data-ng-repeat="secondaryColor in articleDetail.selection.mainColor.AvalaibleSecondaryColors"
+                         data-ng-click="articleDetail.chooseSecondaryColor(secondaryColor)"
+                         data-ng-class="{'active': articleDetail.selection.secondaryColor.HtmlCode==secondaryColor.HtmlCode}">
+                        <div class="color-item-content"
+                             data-ng-style="{background: '#'+secondaryColor.HtmlCode}">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>size</h2>
+                <div class="size-picker">
+                    <ul>
+                        <li class="clickable"
+                            data-ng-repeat="size in articleDetail.article.Sizes"
+                            data-ng-click="articleDetail.chooseSize(size)"
+                            data-ng-class="{'active': articleDetail.selection.size.Id == size.Id}">{{size.Label}}</li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <h2>price</h2>
+                <div class="price">{{articleDetail.article.Price}} €</div>
+            </section>
+            <section id="cart-button">
+                <button class="btn"
+                        data-ng-disabled="!articleDetail.isFormValid()"
+                        data-ng-click="articleDetail.post()">
+                    Add to cart
+                </button>
+            </section>
+        </div>
+    </div>
+</div>

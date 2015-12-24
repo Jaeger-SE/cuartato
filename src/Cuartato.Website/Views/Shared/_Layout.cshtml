@@ -1,0 +1,89 @@
+﻿@using Cuartato.Website.Models
+@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html @{ var model = Model as AngularViewModel; }
+    @(model != null && model.IsAngularActivated ? "data-ng-app=cuartato" : "")>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>ZwedzeJaeger :: Draft :: Cuartato</title>
+    <link rel="icon" href="~/favicon.png"/>
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+    <link href="~/css/layout.css" rel="stylesheet" type="text/css"/>
+
+    @RenderSection("Styles", false)
+</head>
+<body class="noselect" data-key-trap>
+<div id="page-container">
+    <header>
+        <ul id="menu-left">
+            <li>
+                <a href="https://www.facebook.com/Cuartato-1063795193660668">
+                    <span class="fa fa-2x fa-facebook"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa fa-2x fa-instagram"></span>
+                </a>
+            </li>
+        </ul>
+        <div id="logo">
+            <a asp-controller="Home" asp-action="Index"></a>
+        </div>
+        <ul id="menu">
+            <li>About us</li>
+            <li>
+                <i>
+                    <img src="~/img/shop-cart.svg" height="20"/>
+                </i>
+            </li>
+        </ul>
+        <ul id="menu-right">
+            <li>
+                <a href="#">
+                    <span class="fa fa-2x fa-shopping-cart"></span>
+                </a>
+            </li>
+        </ul>
+        <ul id="navigation">
+            <li>
+                <a href="#">About us</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </header>
+
+    <div id="wrapper">
+        @RenderBody()
+    </div>
+
+    <footer>
+        <a class="col-sm-3 hidden-xs" href="#">Contact us</a>
+        <span class="col-xs-12 col-sm-6 text-center">@DateTime.UtcNow.Year &copy; Cuartato &copy; Cuartato.com</span>
+        <ul class="col-sm-3 text-right hidden-xs">
+            <li>
+                <a href="https://www.facebook.com/Cuartato-1063795193660668">
+                    <span class="fa fa-facebook"></span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="fa fa-instagram"></span>
+                </a>
+            </li>
+        </ul>
+    </footer>
+</div>
+<script src="~/js/bundle.js"></script>
+</body>
+</html>

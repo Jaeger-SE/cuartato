@@ -1,0 +1,17 @@
+﻿<div data-ng-controller="highlightSliderController as sliderCtrl">
+    <div id="banner" data-carousel="item in sliderCtrl.items" data-carousel-duration="4">
+        <h2>{{item.title}}</h2>
+    </div>
+</div>
+
+<div id="collection">
+    <h1>Collections</h1>
+    <ul>
+        <li>
+            <a data-ui-sref="/collection/man/gallery">Homme</a>
+        </li>
+        <li>
+            <a data-ui-sref="/collection/woman">Femme</a>
+        </li>
+    </ul>
+</div>

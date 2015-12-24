@@ -1,0 +1,5 @@
+.vs/*
+src/Cuartato.Website/node_modules/*
+src/Cuartato.Website/wwwroot/libs/*
+src/Cuartato.Website/wwwroot/css/*
+src/Cuartato.Website/wwwroot/js/*
