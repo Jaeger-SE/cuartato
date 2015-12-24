@@ -25,6 +25,7 @@ gulp.task("compileSass", function (cb) {
 gulp.task("bundle:css:layout", function (cb) {
     var files = [
         "wwwroot/libs/bootstrap/dist/css/bootstrap.css",
+        "wwwroot/libs/angular-ui-router-anim-in-out/css/anim-in-out.css",
         "wwwroot/css/core.css"
     ];
     return gulp.src(files)
@@ -51,6 +52,7 @@ gulp.task("bundle:js:core", function (cb) {
         "wwwroot/libs/angular-touch/angular-touch.js",
         "wwwroot/libs/angular-animate/angular-animate.js",
         "wwwroot/libs/angular-ui-router/release/angular-ui-router.js",
+        "wwwroot/libs/angular-ui-router-anim-in-out/anim-in-out.js",
         "wwwroot/libs/ng-template-carousel/ng-template-carousel.js",
 
         "wwwroot/angular/libs/key-trap/key-trap.directive.js",
@@ -89,6 +91,7 @@ gulp.task("bundle:js:controllers", function (cb) {
         "wwwroot/angular/context/article.gallery.context.js",
 
         "wwwroot/angular/widgets/highlight-slider/highlight-slider.controller.js",
+        "wwwroot/angular/widgets/collection-picker/collection-picker.controller.js",
         "wwwroot/angular/widgets/article-slider/article-slider.controller.js",
         "wwwroot/angular/widgets/article-detail/article-detail.controller.js"
     ];

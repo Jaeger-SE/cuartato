@@ -9,6 +9,8 @@ namespace Cuartato.Website
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
+
+            services.ConfigureRouting(options => { options.LowercaseUrls = true; });
         }
 
         public void Configure(IApplicationBuilder app)

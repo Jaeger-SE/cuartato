@@ -7,6 +7,6 @@
     "angular-touch": "1.4.8",
     "angular-animate": "1.4.8",
     "angular-ui-router": "0.2.15",
-    "ng-template-carousel": "^1.0.1" 
+    "ng-template-carousel": "^1.0.1"
   }
 }

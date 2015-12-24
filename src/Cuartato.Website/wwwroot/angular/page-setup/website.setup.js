@@ -1,7 +1,7 @@
 ﻿(function() {
     "use strict";
 
-    function config($httpProvider, $stateProvider, $urlRouterProvider) {
+    function config($httpProvider, $stateProvider, $urlRouterProvider, $locationProvider) {
         if (!$httpProvider.defaults.headers.get) {
             $httpProvider.defaults.headers.get = {};
         }
@@ -10,19 +10,28 @@
         $httpProvider.defaults.headers.get["Cache-Control"] = "no-cache";
         $httpProvider.defaults.headers.get["Pragma"] = "no-cache";
 
+        $locationProvider.html5Mode({
+            enabled: true,
+            requireBase: false
+        });
+
         // Routes
+
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
             .state("home", {
-                url: "/",
+                url: "^/",
                 templateUrl: "/page/home"
             })
-            .state("about", {
-            
+            .state("collection", {
+                url: "^/collection/{gender}",
+                templateUrl: "/page/collection/list",
+                controller: "collectionPickerController",
+                controllerAs: "collectionPicker"
             });
     };
 
-    config.$inject = ["$httpProvider", "$stateProvider", "$urlRouterProvider"];
+    config.$inject = ["$httpProvider", "$stateProvider", "$urlRouterProvider", "$locationProvider"];
     angular.module("cuartato", ["kass-ui", "ngTouch", "ui.router", "cuartato-services", "ngAnimate"]).config(config);
 })();

@@ -1,14 +1,9 @@
 ﻿@using System.Threading.Tasks
 @using Cuartato.Website.Models.Collection
-@model Cuartato.Website.Models.Collection.CollectionGender
 @addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
 
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
-
 <div class="title-header">
-    <h2>@Model</h2>
+    <h2>{{collectionPicker.gender}}</h2>
 </div>
 
 <div id="collection-type-picker">
