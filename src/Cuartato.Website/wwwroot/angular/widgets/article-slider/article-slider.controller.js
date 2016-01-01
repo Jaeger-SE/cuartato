@@ -4,7 +4,7 @@
     /**
      * Controller
      */
-    function articleSliderController($scope, articleService, articleGalleryContext) {
+    function articleSliderController($scope, articleService, articleGalleryContext, $state) {
         var vm = this;
 
         // Fields
@@ -52,6 +52,7 @@
             articleGalleryContext.articleSelected = article;
             articleGalleryContext.hasChanged(articleGalleryContext.source.articleSelection);
             vm.openModal();
+            $state.go("gallery.detail", { gender: "woman", articleType: "tshirt", articleId: article.Id });
             return 0;
         }
 
@@ -113,7 +114,7 @@
     }
 
     // dependency injection
-    articleSliderController.$inject = ["$scope", "articleService", "articleGalleryContext"];
+    articleSliderController.$inject = ["$scope", "articleService", "articleGalleryContext", "$state"];
 
     /*
      * Module definition

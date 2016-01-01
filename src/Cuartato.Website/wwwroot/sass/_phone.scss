@@ -1,14 +1,25 @@
 ﻿@media (max-width: 767px) {
+    body {
+        height: auto;
+        position: relative;
+    }
     #page-container{
         padding-top: 0;
         position: relative;
+        height: auto;
+        min-height: 100%;
     }
     #wrapper{
         margin-bottom: 0;
         padding-bottom: 35px;
+        min-height: calc(100% - 185px); 
+        height: auto;
         .title-header{
             display: none;
         }
+    }
+    .page-content {
+        min-height: 350px;
     }
     .modal-container {
         display: flex;
@@ -21,7 +32,7 @@
             margin: auto;
             background: #dcdee3;
             padding: 10px;
-            top: 0;
+            top: 0; 
             right: 0;
             .close-btn {
                 position: relative;

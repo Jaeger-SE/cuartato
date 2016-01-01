@@ -130,7 +130,7 @@ gulp.task("compile:allJs", function (cb) {
  */
 
 gulp.task("watch:js", function (cb) {
-    gulp.watch("wwwroot/angular/*/*.js", ["compile:allJs"]);
+    gulp.watch("wwwroot/angular/**/*.js", ["compile:allJs"]);
 });
 
 gulp.task("watch:css", function (cb) {

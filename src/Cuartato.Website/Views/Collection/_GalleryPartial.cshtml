@@ -1,22 +1,16 @@
 ﻿@using System.Threading.Tasks
-@model Cuartato.Website.Models.Collection.GalleryViewModel
-@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
-
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-}
 
 <div class="title-header">
     <h2>
-        <a asp-controller="Collection" asp-action="List" asp-route-collectionGender="@Model.Gender">@Model.Gender</a>
+        @*<a asp-controller="Collection" asp-action="List" asp-route-collectionGender="@Model.Gender">@Model.Gender</a>
         @if (Model.CollectionType.HasValue)
         {
             <text>&gt; @Model.CollectionType</text>
-        }
+        }*@
     </h2>
 </div>
 
-<div id="gallery-swipe" data-ng-controller="articleSliderController as articleSlider" data-ng-init="articleSlider.init()">
+<div id="gallery-swipe" data-ng-init="articleSlider.init()">
     <ul class="swipe-container">
         <li class="swipe-item"
             data-ng-class="{active: articleSlider.activeIndex == $index, prev: articleSlider.activeIndex>$index, next: articleSlider.activeIndex<$index}"
@@ -52,8 +46,3 @@
 
     <div data-modal data-content-partial-url="'/angular/widgets/article-detail/article-detail.view.html'" data-open-modal="articleSlider.openModal" data-on-close="articleSlider.resetSelection"></div>
 </div>
-
-@section Scripts
-{
-    <script src="~/js/article.slider.js"></script>
-}

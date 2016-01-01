@@ -28,15 +28,15 @@ ul, li {
     padding: 0;
     list-style: none;
 }
-a{
+a {
     color: inherit;
-    &:hover, &:focus{
+    &:hover, &:focus {
         color: inherit;
         text-decoration: none;
         outline: none;
     }
 }
-h2{
+h2 {
     font-size: 20px;
     font-family: 'Roboto Light';
 }
@@ -49,7 +49,7 @@ h2{
 #wrapper {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: calc(100% - 82px);
     overflow-x: hidden;
 }
 
@@ -60,7 +60,7 @@ h2{
     text-transform: capitalize;
 }
 
-.nonDraggableImage{
+.nonDraggableImage {
     -webkit-user-drag: none;
 }
 .noselect {
@@ -125,7 +125,7 @@ h2{
     }
 }
 
-header{
+header {
     display: flex;
     align-items: flex-end;
     height: 82px;
@@ -154,7 +154,7 @@ header{
             background-repeat: no-repeat;
         }
     }
-    #menu-left, #menu-right, #navigation{
+    #menu-left, #menu-right, #navigation {
         display: none;
     }
     #menu {
@@ -179,7 +179,7 @@ header{
                 padding-right: 5px;
             }
             &:last-child {
-                &:after{
+                &:after {
                     content: '';
                     padding :0;
                 }
@@ -276,14 +276,14 @@ header{
                 font-weight: lighter; 
             }
             .image-wrapper {
-                .cover-image{   
+                .cover-image {   
                     width: 403px;
                     height: 604px; 
                     background-color: #eee;
-                    &#model-women-tshirt{
+                    &#model-women-tshirt {
                         background-image: url('/img/model1_a.jpg');
                     }
-                    &#model-women-top{
+                    &#model-women-top {
                         background-image: url('/img/model1.jpg');
                     }
                 }
@@ -323,7 +323,7 @@ header{
                 .call-to-action-customize {
                     opacity: 0;
                 }
-                .article-image-wrapper{
+                .article-image-wrapper {
                     background-color: #eee;
                     width: 403px;
                     height: 640px;
@@ -378,7 +378,7 @@ header{
                     line-height: 1em;
                     transition: 0.3s ease-out, background 0.2s ease-out;
                 }
-                &.active{
+                &.active {
                     button {
                         opacity: 1;
                         background-color: $primary-dark;
@@ -414,11 +414,11 @@ header{
         display: flex;
         flex-direction: row;
         align-items: center;
-        .info-wrapper{
+        .info-wrapper {
             width: 100%;
             section {
                 margin-bottom: 50px;
-                &:last-child{
+                &:last-child {
                     margin-bottom: 0;
                 }
                 h2 {
@@ -439,7 +439,7 @@ header{
                     height: 25px;
                     border: 1px solid white;
                     margin-right: 5px;
-                    &:last-child{
+                    &:last-child {
                         margin-right: 0;
                     }
                     .color-item-content {
@@ -449,7 +449,7 @@ header{
                         opacity: 0.3;
                     }
                     &.active, &:hover {
-                        .color-item-content{
+                        .color-item-content {
                             opacity: 1;
                         }
                     }
@@ -465,7 +465,7 @@ header{
                             display: inline-block;
                             opacity: 0.5;
                             transition: opacity 0.2s ease-out;
-                            &:not(:last-child):after{
+                            &:not(:last-child):after {
                                 content: "|";
                                 padding-left: 3px;
                                 padding-right: 3px;
@@ -520,11 +520,11 @@ footer {
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
-    .col-sm-3{
-        &:first-child{
+    .col-sm-3 {
+        &:first-child {
             padding-left: 0;
         }
-        &:last-child{
+        &:last-child {
             padding-right: 0;
         }
     }
@@ -535,7 +535,7 @@ footer {
         li {
             display: inline-block;
             margin-right: 10px;
-            &:last-child{
+            &:last-child {
                 margin-right: 0;
             }
             .fa {

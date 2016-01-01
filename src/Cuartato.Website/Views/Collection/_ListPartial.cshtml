@@ -1,14 +1,11 @@
 ﻿@using System.Threading.Tasks
-@using Cuartato.Website.Models.Collection
-@addTagHelper "*, Microsoft.AspNet.Mvc.TagHelpers"
-
 <div class="title-header">
     <h2>{{collectionPicker.gender}}</h2>
 </div>
 
 <div id="collection-type-picker">
     <div class="collection-type-item">
-        <a asp-controller="Collection" asp-action="Gallery" asp-route-collectionGender="@(Model)" asp-route-collectionType="@(CollectionType.Shirt)">
+        <a data-ui-sref="gallery({gender:collectionPicker.gender, articleType:'tshirt'})">
             <h2>T-shirt</h2>
             <div class="image-wrapper">
                 <div class="cover-image" id="model-women-tshirt"></div>
@@ -16,7 +13,7 @@
         </a>
     </div>
     <div class="collection-type-item">
-        <a asp-controller="Collection" asp-action="Gallery" asp-route-collectionGender="@(Model)" asp-route-collectionType="@(CollectionType.Top)">
+        <a data-ui-sref="gallery({gender:collectionPicker.gender, articleType:'top'})">
             <h2>Top</h2>
             <div class="image-wrapper">
                 <div class="cover-image" id="model-women-top"></div>

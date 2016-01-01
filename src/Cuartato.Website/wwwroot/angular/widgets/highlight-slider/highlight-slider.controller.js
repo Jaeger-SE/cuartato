@@ -11,19 +11,19 @@
         vm.items = [
             {
                 src: "/img/banner.jpg",
-                title: "coucou"
+                title: ""
             },
             {
                 src: "/img/banner2.jpg",
-                title: "blurp"
+                title: "" 
             },
             {
-                src: "/img/banner.jpg",
-                title: "pikachu"
+                src: "/img/banner.jpg", 
+                title: ""
             },
             {
                 src: "/img/banner2.jpg",
-                title: "tordesilla"
+                title: ""
             }
         ];
 

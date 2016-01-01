@@ -1,0 +1,632 @@
+﻿[
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df1",
+    "Title": "Lion",
+    "ImageUrl": "/img/model1.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  },
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df2",
+    "Title": "Rose",
+    "ImageUrl": "/img/model2.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  },
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df3",
+    "Title": "Superman",
+    "ImageUrl": "/img/model3.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  },
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df4",
+    "Title": "Klopp 4 the Kop",
+    "ImageUrl": "/img/model4.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  },
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df5",
+    "Title": "Teaser",
+    "ImageUrl": "/img/model5.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  },
+  {
+    "Id": "3a69f2be-e0a4-4b41-9a61-c45355dd2df6",
+    "Title": "Thrall",
+    "ImageUrl": "/img/model6.jpg?w=403&h=640&mode=crop",
+    "ArticleCombinations": [
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+          "Name": "Black",
+          "HtmlCode": "000000"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Name": "Deep red",
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+          "Name": "White",
+          "HtmlCode": "FFFFFF"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+            "Name": "Deep red",
+            "HtmlCode": "E11D47"
+          }
+        ]
+      },
+      {
+        "Main": {
+          "Id": "835226ef-a786-467b-a9fb-eba8de243a37",
+          "Name": "Deep red",
+          "HtmlCode": "E11D47"
+        },
+        "AvalaibleSecondaryColors": [
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3F",
+            "Name": "White",
+            "HtmlCode": "FFFFFF"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a3A",
+            "Name": "Golden",
+            "HtmlCode": "FFCC00"
+          },
+          {
+            "Id": "835226ef-a786-467b-a9fb-eba8de243a30",
+            "Name": "Black",
+            "HtmlCode": "000000"
+          }
+        ]
+      }
+    ],
+    "Sizes": [
+      {
+        "Id": 0,
+        "Label": "XS"
+      },
+      {
+        "Id": 1,
+        "Label": "S"
+      },
+      {
+        "Id": 2,
+        "Label": "M"
+      },
+      {
+        "Id": 3,
+        "Label": "L"
+      },
+      {
+        "Id": 4,
+        "Label": "XL"
+      },
+      {
+        "Id": 5,
+        "Label": "XXL"
+      },
+      {
+        "Id": 6,
+        "Label": "XXXL"
+      }
+    ],
+    "Price": 35.0
+  }
+]

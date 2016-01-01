@@ -22,5 +22,5 @@
     } catch (err) {
         module = angular.module("cuartato", ["kass-ui", "cuartato-services"]);
     }
-    module.factory("articleGalleryContext", articleGalleryContext);
+    module.factory("articleGalleryContext", articleGalleryContext); 
 })();

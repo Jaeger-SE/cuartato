@@ -10,13 +10,12 @@
         $httpProvider.defaults.headers.get["Cache-Control"] = "no-cache";
         $httpProvider.defaults.headers.get["Pragma"] = "no-cache";
 
-        $locationProvider.html5Mode({
-            enabled: true,
-            requireBase: false
-        });
+        //$locationProvider.html5Mode({
+        //    enabled: true,
+        //    requireBase: false
+        //});
 
         // Routes
-
         $urlRouterProvider.otherwise("/");
 
         $stateProvider
@@ -29,6 +28,19 @@
                 templateUrl: "/page/collection/list",
                 controller: "collectionPickerController",
                 controllerAs: "collectionPicker"
+            })
+            .state("gallery", {
+                url: "^/collection/{gender}/{articleType}",
+                templateUrl: "/page/collection/gallery",
+                controller: "articleSliderController",
+                controllerAs: "articleSlider"
+            })
+            .state("gallery.detail", {
+                parent: "gallery",
+                url: "^/collection/{gender}/{articleType}/{articleId}",
+                templateUrl: "/page/collection/articleDetail",
+                controller: "articleDetailController",
+                controllerAs: "articleDetail"
             });
     };
 
